@@ -1,0 +1,123 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -1%;
+    background-color: #ffffff;
+    /* Cor de fundo do header */
+    color: #f7d601;
+    /* Cor do texto */
+}
+
+.logo img {
+    height: 50px;
+    /* Tamanho da logo */
+}
+
+.lista_header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.lista_header a {
+    text-decoration: none;
+    color: #f7d601;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.lista_header a:hover {
+    color: #f70101;
+    /* Cor de destaque ao passar o mouse */
+}
+
+
+
+
+
+
+.img-sal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+
+.ultima-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Espaçamento entre as colunas */
+    gap: 20px;
+    /* Espaço entre as colunas */
+}
+
+.column1 {
+    flex: 1;
+    /* Faz as colunas terem a mesma largura */
+    text-align: center;
+    /* Centraliza o texto e a imagem */
+    font-size: 10px;
+    color: #790707;
+}
+
+.column2 {
+    flex: 1;
+    /* Faz as colunas terem a mesma largura */
+    text-align: center;
+    /* Centraliza o texto e a imagem */
+    font-size: 10px;
+    color: #790707;
+}
+
+
+.column3 {
+    flex: 1;
+    /* Faz as colunas terem a mesma largura */
+    text-align: center;
+    /* Centraliza o texto e a imagem */
+    font-size: 10px;
+    color: #790707;
+}
+
+
+.perfume1 {
+    width: 100%;
+    /* Ajuste a largura conforme necessário */
+    max-width: 150px;
+    /* Limita a largura da imagem */
+    height: auto;
+    
+    /* Mantém a proporção da imagem */
+}
+
+.perf2 { width: 200px; /* Define a largura */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+}
+.perfume3 {
+    width: 100%;
+    /* Ajuste a largura conforme necessário */
+    max-width: 150px;
+    /* Limita a largura da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.text{
+    text-align: center;
+    color: #f7d601;
+}
