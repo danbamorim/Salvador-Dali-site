@@ -91,7 +91,7 @@ header {
     text-align: center;
     /* Centraliza o texto e a imagem */
     font-size: 10px;
-    
+
 }
 
 
@@ -101,13 +101,17 @@ header {
     max-width: 150px;
     /* Limita a largura da imagem */
     height: auto;
-    
+
     /* Mantém a proporção da imagem */
 }
 
-.perf2 { width: 200px; /* Define a largura */
-    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+.perf2 {
+    width: 200px;
+    /* Define a largura */
+    height: auto;
+    /* A altura será ajustada automaticamente para manter a proporção */
 }
+
 .perfume3 {
     width: 100%;
     /* Ajuste a largura conforme necessário */
@@ -117,7 +121,72 @@ header {
     /* Mantém a proporção da imagem */
 }
 
-.text{
+.text {
     text-align: center;
     color: #f7d601;
 }
+
+.line-break {
+    display: block;
+    height: 3em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.line-break2 {
+    display: block;
+    height: 10em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.line-break3 {
+    display: block;
+    height: 10em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.line-break4 {
+    display: block;
+    height: 9em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.line-break5 {
+    display: block;
+    height: 10em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.line-break6 {
+    display: block;
+    height: 8em;
+    /* Ajuste a altura conforme necessário */
+    content: "";
+    /* Garante que o div não tenha conteúdo */
+}
+
+.final {
+    width: 2000px; /* Largura do contêiner */
+    height: 150px; /* Altura do contêiner */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+  }
+  
+  .final img {
+    width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
+    height: 100%; /* Ajusta a altura da imagem para preencher o contêiner */
+    object-fit: cover; /* Faz com que a imagem cubra todo o contêiner, mantendo a proporção */
+  }
+
+  .penultimo{
+    text-align: center;
+     color: #f7d601;
+    }
